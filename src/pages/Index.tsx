@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import ColorDisplay from '@/components/ColorDisplay';
@@ -41,7 +40,13 @@ const Index = () => {
                 <GradientButton size="lg" className="text-md">
                   Scan My Room
                 </GradientButton>
-                <GradientButton size="lg" className="text-md" variant="outline" gradientFrom="from-theme-mint" gradientTo="to-theme-soft-blue">
+                <GradientButton 
+                  size="lg" 
+                  className="text-md font-semibold" 
+                  variant="outline" 
+                  gradientFrom="from-theme-purple" 
+                  gradientTo="to-theme-soft-blue"
+                >
                   Explore Color Palettes
                 </GradientButton>
               </div>
